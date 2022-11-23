@@ -139,7 +139,7 @@ table {
 
 .section-width {
     min-width: 180px;
-    max-width: 75%;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -271,7 +271,8 @@ table {
 }
 
 .cta {
-    padding: 52px 0px;
+    padding: 52px;
+    margin: auto;
 }
 .cta-blue {
     background-color: #3882F6;
@@ -282,6 +283,8 @@ table {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
+    max-width: 75%;
+    margin: auto;
 }
 .cta-text {
     flex: 1;
